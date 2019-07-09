@@ -44,17 +44,17 @@
 <body>
 
 	<!-- Navigation -->
-	<jsp:include page="header.jsp" />
+	<jsp:include page="layout/header.jsp" />
 
 	<!-- Page Content -->
-	<jsp:include page = "container.jsp"/>
+	<jsp:include page = "layout/container.jsp"/>
 	
 
 	<!-- paging -->
-	<jsp:include page="paging.jsp" />
+	<jsp:include page="layout/paging.jsp" />
 
 	<!-- Footer -->
-	<jsp:include page="footer.jsp" />
+	<jsp:include page="layout/footer.jsp" />
 
 	<!-- Bootstrap core JavaScript -->
 	<script
